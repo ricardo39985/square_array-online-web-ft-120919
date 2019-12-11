@@ -1,4 +1,6 @@
 def square_array(array)
   # your code here
-  array.map { |n| n * n }
+  new_array = []
+array.each { |n| new_array.push(n * n )}
+new_array
 end
